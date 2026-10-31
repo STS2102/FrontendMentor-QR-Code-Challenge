@@ -21,10 +21,12 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: hsl(212, 45%, 89%);
-    width: 320px;
-    height: 499px;
-    padding: 230.5px 560px 230.5px 560px;
+    min-height: 100vh;
 }
 
 img {
