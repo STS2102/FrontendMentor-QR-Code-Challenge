@@ -5,6 +5,7 @@
     line-height: 120%;
     font-family: 'Outfit';
     letter-spacing: 0px;
+    text-align: center;
 
 
 }
@@ -16,4 +17,30 @@
     line-height: 140%;
     font-family: 'Outfit';
     letter-spacing: 0.2px;
+    text-align: center;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: 320px;
+    height: 499px;
+    padding: 230.5px 560px 230.5px 560px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card {
+    /* Setting the website dimensions for the body section of the page: The small box in the centre. */
+    /* Th padding adds extra space around the content, not cutting into the card's space. */
+    width: 288px;
+    height: 443px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+
 }
